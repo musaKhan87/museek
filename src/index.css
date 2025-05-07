@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+
+#range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin-top: -4.5px; /* to align thumb vertically with track */
+}
+
+#range::-webkit-slider-runnable-track {
+  background-color: #4b5563; /* Tailwind gray-600 */
+  height: 7px;
+  border-radius: 9999px;
+}
+
+/* ==== Firefox ==== */
+#range::-moz-range-thumb {
+  background-color: #ffffff;
+  border: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+#range::-moz-range-track {
+  background-color: #4b5563;
+  height: 7px;
+  border-radius: 9999px;
+}

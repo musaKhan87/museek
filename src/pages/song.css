@@ -1,0 +1,42 @@
+.volume-slider {
+  appearance: none !important;
+  transform: rotate(-90deg);
+  width: 120px !important;
+  height: 3px !important;
+  background: #4b5563 !important;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.volume-slider:hover {
+  background: #9ca3af !important;
+}
+
+/* Chrome/Edge/Safari */
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50% !important;
+  background: white !important;
+  border: none;
+}
+
+/* Firefox */
+.volume-slider::-moz-range-thumb {
+  height: 14px ;
+  width: 14px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+}
+
+.volume-slider::-webkit-slider-runnable-track,
+.volume-slider::-moz-range-track {
+  background: #4b5563;
+  height: 6px;
+  border-radius: 9999px;
+}
+
