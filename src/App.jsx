@@ -15,7 +15,7 @@ function App() {
       <Route path='/search' element={<Search/>}/>
       <Route path='/playlist' element={<Playlist/>}/>
       <Route path='/liked' element={<Liked/>}/>
-
+      <Route path="*" element={<Home/>}/>
     </Routes>
     </BrowserRouter>
   )
