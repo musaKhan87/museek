@@ -111,7 +111,7 @@ music-player/
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/music-player.git
+   git clone https://github.com/musaKhan87/museek.git
    cd music-player
    \`\`\`
 
@@ -129,7 +129,7 @@ music-player/
 
 4. **Start the development server**
    \`\`\`bash
-   npm start
+   npm start 
    # or
    yarn start
    \`\`\`
